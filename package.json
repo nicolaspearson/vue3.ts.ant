@@ -18,6 +18,8 @@
     "vuex": "^4.0.0-0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.2",
     "@starptech/prettyhtml": "^0.10.0",
     "@types/jest": "^24.0.19",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
@@ -48,7 +50,10 @@
   },
   "husky": {
     "hooks": {
-      "precommit": "pretty-quick --staged && prettyhtml-quick --staged"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "precommit": "pretty-quick --staged && prettyhtml-quick --staged",
+      "post-merge": "yarn",
+      "post-rewrite": "yarn"
     }
   }
 }
