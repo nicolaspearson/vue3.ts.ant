@@ -24,11 +24,12 @@
     "@babel/plugin-transform-flow-strip-types": "^7.10.4",
     "@commitlint/cli": "^9.1.2",
     "@commitlint/config-conventional": "^9.1.2",
+    "@jest/core": "^26.4.2",
     "@starptech/prettyhtml": "^0.10.0",
     "@types/babel__core": "^7",
     "@types/babel__preset-env": "^7",
     "@types/jest": "^26.0.13",
-    "@types/node": "^14.6.4",
+    "@types/node": "^14.10.0",
     "@types/webpack-env": "^1.15.2",
     "@typescript-eslint/eslint-plugin": "^4.1.0",
     "@typescript-eslint/parser": "^4.1.0",
@@ -46,6 +47,7 @@
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/eslint-config-typescript": "^5.1.0",
     "@vue/test-utils": "^2.0.0-0",
+    "babel-core": "bridge",
     "babel-jest": "^26.3.0",
     "eslint": "^7.8.1",
     "eslint-plugin-prettier": "^3.1.4",
@@ -56,12 +58,17 @@
     "jest-serializer-vue": "^2.0.2",
     "node-sass": "^4.14.1",
     "prettier": "^2.1.1",
-    "pretty-quick": "^3.0.0",
+    "pretty-quick": "^3.0.2",
     "sass-loader": "^10.0.2",
     "ts-jest": "^26.3.0",
     "tslib": "^2.0.1",
     "typescript": "^4.0.2",
-    "vue-jest": "^5.0.0-0"
+    "vue-jest": "nogic1008/vue-jest#hotfix/transform-next"
+  },
+  "resolutions": {
+    "@vue/cli-plugin-unit-jest/jest": "^26.4.2",
+    "@vue/cli-plugin-unit-jest/ts-jest": "^26.3.0",
+    "vue-jest/ts-jest": "^26.3.0"
   },
   "husky": {
     "hooks": {
