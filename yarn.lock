@@ -7128,7 +7128,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-vue@npm:^7.0.0-0":
+"eslint-plugin-vue@npm:^7.0.0-beta.3":
   version: 7.0.0-beta.3
   resolution: "eslint-plugin-vue@npm:7.0.0-beta.3"
   dependencies:
@@ -17785,7 +17785,7 @@ typescript@^4.0.2:
     core-js: ^3.6.5
     eslint: ^7.8.1
     eslint-plugin-prettier: ^3.1.4
-    eslint-plugin-vue: ^7.0.0-0
+    eslint-plugin-vue: ^7.0.0-beta.3
     husky: ^4.3.0
     jest: ^26.4.2
     jest-environment-jsdom: 26.3.0
