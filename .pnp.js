@@ -45,6 +45,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/config-conventional", "npm:11.0.0"],
             ["@jest/core", "npm:26.4.2"],
             ["@starptech/prettyhtml", "npm:0.10.0"],
+            ["@starptech/prettyhtml-quick", "npm:0.10.1"],
             ["@types/babel__core", "npm:7.1.9"],
             ["@types/babel__preset-env", "npm:7.9.0"],
             ["@types/jest", "npm:26.0.13"],
@@ -70,6 +71,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-jest", "virtual:3bf5cb85a2e664643c98d2e719d27af43974598ccaa6ea3c355c3ae5c1d5177e21a427bd1a7e70bdce3b4affdbcea39f2ffaa213984380213caeec2a5a6a00da#npm:26.3.0"],
             ["core-js", "npm:3.6.5"],
             ["eslint", "npm:7.9.0"],
+            ["eslint-plugin-cypress", "virtual:97b24829f84ddbbce9c76b13249624a56bbe04cd5537cc7b804245924c702a87f2d55622bf65b1106100ba05adc1da378a3a8e8f604862cf14efd14717ac4e39#npm:2.11.1"],
             ["eslint-plugin-prettier", "virtual:97b24829f84ddbbce9c76b13249624a56bbe04cd5537cc7b804245924c702a87f2d55622bf65b1106100ba05adc1da378a3a8e8f604862cf14efd14717ac4e39#npm:3.1.4"],
             ["eslint-plugin-vue", "virtual:97b24829f84ddbbce9c76b13249624a56bbe04cd5537cc7b804245924c702a87f2d55622bf65b1106100ba05adc1da378a3a8e8f604862cf14efd14717ac4e39#npm:7.0.0-beta.3"],
             ["husky", "npm:4.3.0"],
@@ -2773,6 +2775,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["hast-util-parse-selector", "npm:2.2.4"],
             ["property-information", "npm:5.5.0"],
             ["space-separated-tokens", "npm:1.1.5"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@starptech/prettyhtml-quick", [
+        ["npm:0.10.1", {
+          "packageLocation": "./.yarn/cache/@starptech-prettyhtml-quick-npm-0.10.1-2a97ae82ec-9f0c309f07.zip/node_modules/@starptech/prettyhtml-quick/",
+          "packageDependencies": [
+            ["@starptech/prettyhtml-quick", "npm:0.10.1"],
+            ["@starptech/prettyhtml", "npm:0.10.0"],
+            ["chalk", "npm:2.4.2"],
+            ["commander", "npm:2.20.3"],
+            ["execa", "npm:1.0.0"],
+            ["find-up", "npm:4.1.0"],
+            ["prettier", "npm:1.19.1"]
           ],
           "linkType": "HARD",
         }]
@@ -8696,6 +8713,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["eslint-plugin-cypress", [
+        ["virtual:97b24829f84ddbbce9c76b13249624a56bbe04cd5537cc7b804245924c702a87f2d55622bf65b1106100ba05adc1da378a3a8e8f604862cf14efd14717ac4e39#npm:2.11.1", {
+          "packageLocation": "./.yarn/$$virtual/eslint-plugin-cypress-virtual-7f58dff24b/0/cache/eslint-plugin-cypress-npm-2.11.1-ff3fdff092-3585d5e2f7.zip/node_modules/eslint-plugin-cypress/",
+          "packageDependencies": [
+            ["eslint-plugin-cypress", "virtual:97b24829f84ddbbce9c76b13249624a56bbe04cd5537cc7b804245924c702a87f2d55622bf65b1106100ba05adc1da378a3a8e8f604862cf14efd14717ac4e39#npm:2.11.1"],
+            ["@types/eslint", null],
+            ["eslint", "npm:7.9.0"],
+            ["globals", "npm:11.12.0"]
+          ],
+          "packagePeers": [
+            "@types/eslint",
+            "eslint"
+          ],
+          "linkType": "HARD",
+        }],
         ["virtual:9c40bce1efbe6776c2e54aa250d834732c1f92666de5a43b2587f6d93841c6799a5c6f3fbac5f2c4b9c1309257a4bad5d3786cc85e397030dcc6092cae3aa9a2#npm:2.11.1", {
           "packageLocation": "./.yarn/$$virtual/eslint-plugin-cypress-virtual-37afd97fea/0/cache/eslint-plugin-cypress-npm-2.11.1-ff3fdff092-3585d5e2f7.zip/node_modules/eslint-plugin-cypress/",
           "packageDependencies": [
@@ -20425,6 +20456,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/config-conventional", "npm:11.0.0"],
             ["@jest/core", "npm:26.4.2"],
             ["@starptech/prettyhtml", "npm:0.10.0"],
+            ["@starptech/prettyhtml-quick", "npm:0.10.1"],
             ["@types/babel__core", "npm:7.1.9"],
             ["@types/babel__preset-env", "npm:7.9.0"],
             ["@types/jest", "npm:26.0.13"],
@@ -20450,6 +20482,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-jest", "virtual:3bf5cb85a2e664643c98d2e719d27af43974598ccaa6ea3c355c3ae5c1d5177e21a427bd1a7e70bdce3b4affdbcea39f2ffaa213984380213caeec2a5a6a00da#npm:26.3.0"],
             ["core-js", "npm:3.6.5"],
             ["eslint", "npm:7.9.0"],
+            ["eslint-plugin-cypress", "virtual:97b24829f84ddbbce9c76b13249624a56bbe04cd5537cc7b804245924c702a87f2d55622bf65b1106100ba05adc1da378a3a8e8f604862cf14efd14717ac4e39#npm:2.11.1"],
             ["eslint-plugin-prettier", "virtual:97b24829f84ddbbce9c76b13249624a56bbe04cd5537cc7b804245924c702a87f2d55622bf65b1106100ba05adc1da378a3a8e8f604862cf14efd14717ac4e39#npm:3.1.4"],
             ["eslint-plugin-vue", "virtual:97b24829f84ddbbce9c76b13249624a56bbe04cd5537cc7b804245924c702a87f2d55622bf65b1106100ba05adc1da378a3a8e8f604862cf14efd14717ac4e39#npm:7.0.0-beta.3"],
             ["husky", "npm:4.3.0"],

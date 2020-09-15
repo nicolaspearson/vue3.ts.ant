@@ -2004,6 +2004,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@starptech/prettyhtml-quick@npm:^0.10.1":
+  version: 0.10.1
+  resolution: "@starptech/prettyhtml-quick@npm:0.10.1"
+  dependencies:
+    "@starptech/prettyhtml": ^0.10.0
+    chalk: ^2.4.2
+    commander: ^2.20.0
+    execa: ^1.0.0
+    find-up: ^4.1.0
+    prettier: ^1.18.2
+  bin:
+    prettyhtml-quick: ./bin/cli.js
+  checksum: 9f0c309f07bc2c7d840c865bda1f76bafe4a487b6d8541f88bf3bb38d22fbaba788435d3e53da3c9d47e69f67d0b11fe83798ce9ecc7586ef923e6122f1398bb
+  languageName: node
+  linkType: hard
+
 "@starptech/prettyhtml-sort-attributes@npm:^0.10.0":
   version: 0.10.0
   resolution: "@starptech/prettyhtml-sort-attributes@npm:0.10.0"
@@ -7102,7 +7118,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-cypress@npm:^2.10.3":
+"eslint-plugin-cypress@npm:^2.10.3, eslint-plugin-cypress@npm:^2.11.1":
   version: 2.11.1
   resolution: "eslint-plugin-cypress@npm:2.11.1"
   dependencies:
@@ -17782,6 +17798,7 @@ typescript@^4.0.2:
     "@commitlint/config-conventional": ^11.0.0
     "@jest/core": ^26.4.2
     "@starptech/prettyhtml": ^0.10.0
+    "@starptech/prettyhtml-quick": ^0.10.1
     "@types/babel__core": ^7
     "@types/babel__preset-env": ^7
     "@types/jest": ^26.0.13
@@ -17807,6 +17824,7 @@ typescript@^4.0.2:
     babel-jest: ^26.3.0
     core-js: ^3.6.5
     eslint: ^7.9.0
+    eslint-plugin-cypress: ^2.11.1
     eslint-plugin-prettier: ^3.1.4
     eslint-plugin-vue: ^7.0.0-beta.3
     husky: ^4.3.0
