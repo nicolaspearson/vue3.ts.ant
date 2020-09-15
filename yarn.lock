@@ -17839,7 +17839,7 @@ typescript@^4.0.2:
     ts-jest: ^26.3.0
     tslib: ^2.0.1
     typescript: ^4.0.2
-    vue: ^3.0.0-rc.10
+    vue: ^3.0.0-rc.11
     vue-class-component: ^8.0.0-beta.2
     vue-jest: "nogic1008/vue-jest#hotfix/transform-next"
     vue-router: ^4.0.0-beta.9
@@ -17854,7 +17854,7 @@ typescript@^4.0.2:
   languageName: node
   linkType: hard
 
-"vue@npm:^3.0.0-rc.10":
+"vue@npm:^3.0.0-rc.11":
   version: 3.0.0-rc.11
   resolution: "vue@npm:3.0.0-rc.11"
   dependencies:
