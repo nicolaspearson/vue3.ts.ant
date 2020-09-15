@@ -2331,10 +2331,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^14.10.0":
+"@types/node@npm:*":
   version: 14.10.0
   resolution: "@types/node@npm:14.10.0"
   checksum: 03093b4991611c31b80e836d06359391a76f4bd8ff12d0286fc7da7b994612e60c503b0b6fece8983c6ab2cec3921f69f480386c293882b68edab90ce0f12564
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^14.10.1":
+  version: 14.10.1
+  resolution: "@types/node@npm:14.10.1"
+  checksum: 086b4baffc1f13eee84fb4ff072d685b3fecad59f4166c4367f1ab0db6aa30fc81cf67e6469775072b51126c52bcfec40bae6fafef4e4dc8f4c42f94211e28f4
   languageName: node
   linkType: hard
 
@@ -17769,7 +17776,7 @@ typescript@^4.0.2:
     "@types/babel__core": ^7
     "@types/babel__preset-env": ^7
     "@types/jest": ^26.0.13
-    "@types/node": ^14.10.0
+    "@types/node": ^14.10.1
     "@types/webpack-env": ^1.15.2
     "@typescript-eslint/eslint-plugin": ^4.1.1
     "@typescript-eslint/parser": ^4.1.1
