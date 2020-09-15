@@ -1,4 +1,7 @@
 {
+  "compatibility": {
+    "yarn": "2.x"
+  },
   "extends": ["config:base"],
   "prHourlyLimit": 5,
   "rangeStrategy": "bump",
