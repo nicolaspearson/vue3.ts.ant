@@ -3157,17 +3157,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/eslint-config-typescript@npm:^5.1.0":
-  version: 5.1.0
-  resolution: "@vue/eslint-config-typescript@npm:5.1.0"
+"@vue/eslint-config-typescript@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "@vue/eslint-config-typescript@npm:7.0.0"
   dependencies:
     vue-eslint-parser: ^7.0.0
   peerDependencies:
-    "@typescript-eslint/eslint-plugin": ^2.7.0
-    "@typescript-eslint/parser": ^2.7.0
+    "@typescript-eslint/eslint-plugin": ^4.4.0
+    "@typescript-eslint/parser": ^4.4.0
     eslint: ^5.0.0 || ^6.0.0 || ^7.0.0
-    eslint-plugin-vue: ^5.2.3 || ^6.0.0 || ^7.0.0-0
-  checksum: 9048c1089458fc423a943fa52e1396765a1b4fb1b07c41f88f92aa8ec460fbd1d5fac05d8231c3411029b2078141de36c0b0aba4d9a954a2464836d2d70b963f
+    eslint-plugin-vue: ^5.2.3 || ^6.0.0 || ^7.0.0
+  checksum: 4a3fc25f97400a9fefeaa12552adccbfb95098da4023153e6ba01df8764ee7b4137927485ffe374a41355805a709797a984a2b3eeb30e14d5f57ca9ca51f2aef
   languageName: node
   linkType: hard
 
@@ -17818,7 +17818,7 @@ typescript@^4.0.2:
     "@vue/compiler-dom": ^3.0.0-rc.11
     "@vue/compiler-sfc": ^3.0.0-rc.11
     "@vue/eslint-config-prettier": ^6.0.0
-    "@vue/eslint-config-typescript": ^5.1.0
+    "@vue/eslint-config-typescript": ^7.0.0
     "@vue/test-utils": ^2.0.0-beta.4
     babel-core: bridge
     babel-jest: ^26.3.0
