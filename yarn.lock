@@ -13968,9 +13968,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"pretty-quick@npm:^3.0.2":
-  version: 3.0.2
-  resolution: "pretty-quick@npm:3.0.2"
+"pretty-quick@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "pretty-quick@npm:3.1.0"
   dependencies:
     chalk: ^3.0.0
     execa: ^4.0.0
@@ -13982,7 +13982,7 @@ fsevents@^1.2.7:
     prettier: ">=2.0.0"
   bin:
     pretty-quick: bin/pretty-quick.js
-  checksum: 2f0a136cd278406af6498f2e1ca16fb1676947849d502387a8cf3d1c01f9e07bfe27200c41f391524b9efadacd06080975aad2dfa8889023a259cebd0467a6d8
+  checksum: 956f0808ee9323fccb0208d7f818c9528375b103c0b0c9b35280e70b1f7fc5574785c0f872b2a4fe89c4600b30a98fbf7c978eb4c272bc1b2c08e61d64119d60
   languageName: node
   linkType: hard
 
@@ -17833,7 +17833,7 @@ typescript@^4.0.2:
     jest-serializer-vue: ^2.0.2
     node-sass: ^4.14.1
     prettier: ^2.1.1
-    pretty-quick: ^3.0.2
+    pretty-quick: ^3.1.0
     register-service-worker: ^1.7.1
     sass-loader: ^10.0.2
     ts-jest: ^26.3.0
