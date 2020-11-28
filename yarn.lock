@@ -2521,6 +2521,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/webpack-env@npm:^1.16.0":
+  version: 1.16.0
+  resolution: "@types/webpack-env@npm:1.16.0"
+  checksum: eaf62fb65ba18737174a520a444bb7407e5a6f32581690c5a7a687e6f86e9d4ce336fd9e79989aafa19e5f390046ad54b9100cd3d70a43dcf0ab0161d30cd5bd
+  languageName: node
+  linkType: hard
+
 "@types/webpack-sources@npm:*":
   version: 1.4.2
   resolution: "@types/webpack-sources@npm:1.4.2"
@@ -17803,7 +17810,7 @@ typescript@^4.0.2:
     "@types/babel__preset-env": ^7
     "@types/jest": ^26.0.13
     "@types/node": ^14.10.1
-    "@types/webpack-env": ^1.15.2
+    "@types/webpack-env": ^1.16.0
     "@typescript-eslint/eslint-plugin": ^4.1.1
     "@typescript-eslint/parser": ^4.1.1
     "@vue/cli-plugin-babel": ^4.5.6
