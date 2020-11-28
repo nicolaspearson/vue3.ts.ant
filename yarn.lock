@@ -13906,12 +13906,12 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.1.1":
-  version: 2.1.1
-  resolution: "prettier@npm:2.1.1"
+"prettier@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "prettier@npm:2.2.1"
   bin:
     prettier: bin-prettier.js
-  checksum: 420a807cda2d482388daa42379a7aaa1be629cb71f5792362a971a5ed1c6ff377d2e311818d24e9390a4a8a6eac3fda9ebe6975f2168efec893790c0497d8a93
+  checksum: 92c6c9f4b87eba1f28466edee57dd18c80d00b858edda77d46d1950d20e6e302b68ee255fc91133ba931e63c4577b5ae30da194d9626a8f3c0177778b91bf056
   languageName: node
   linkType: hard
 
@@ -17832,7 +17832,7 @@ typescript@^4.0.2:
     jest-environment-jsdom: 26.3.0
     jest-serializer-vue: ^2.0.2
     node-sass: ^4.14.1
-    prettier: ^2.1.1
+    prettier: ^2.2.1
     pretty-quick: ^3.0.2
     register-service-worker: ^1.7.1
     sass-loader: ^10.0.2

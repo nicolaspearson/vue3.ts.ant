@@ -79,7 +79,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-environment-jsdom", "npm:26.3.0"],
             ["jest-serializer-vue", "npm:2.0.2"],
             ["node-sass", "npm:4.14.1"],
-            ["prettier", "npm:2.1.1"],
+            ["prettier", "npm:2.2.1"],
             ["pretty-quick", "virtual:97b24829f84ddbbce9c76b13249624a56bbe04cd5537cc7b804245924c702a87f2d55622bf65b1106100ba05adc1da378a3a8e8f604862cf14efd14717ac4e39#npm:3.0.2"],
             ["register-service-worker", "npm:1.7.1"],
             ["sass-loader", "virtual:97b24829f84ddbbce9c76b13249624a56bbe04cd5537cc7b804245924c702a87f2d55622bf65b1106100ba05adc1da378a3a8e8f604862cf14efd14717ac4e39#npm:10.0.2"],
@@ -4134,7 +4134,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:7.9.0"],
             ["eslint-config-prettier", "virtual:f1ca85ac140a95125be4d7f358f2ac14bc6aeec993badb78d6c9264cadcfcbf098b3b4f12e5cfa46d465f26652ed899150e0bda0033db6dc3a85c432065bf4f7#npm:6.11.0"],
             ["eslint-plugin-prettier", "virtual:97b24829f84ddbbce9c76b13249624a56bbe04cd5537cc7b804245924c702a87f2d55622bf65b1106100ba05adc1da378a3a8e8f604862cf14efd14717ac4e39#npm:3.1.4"],
-            ["prettier", "npm:2.1.1"]
+            ["prettier", "npm:2.2.1"]
           ],
           "packagePeers": [
             "@types/eslint-plugin-prettier",
@@ -7180,14 +7180,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["core-js", [
         ["npm:2.6.11", {
-          "packageLocation": "./.yarn/unplugged/core-js-npm-2.6.11-15178ded27/node_modules/core-js/",
+          "packageLocation": "./.yarn/cache/core-js-npm-2.6.11-15178ded27-39ad00b46d.zip/node_modules/core-js/",
           "packageDependencies": [
             ["core-js", "npm:2.6.11"]
           ],
           "linkType": "HARD",
         }],
         ["npm:3.6.5", {
-          "packageLocation": "./.yarn/unplugged/core-js-npm-3.6.5-5941340066/node_modules/core-js/",
+          "packageLocation": "./.yarn/cache/core-js-npm-3.6.5-5941340066-9283348dd5.zip/node_modules/core-js/",
           "packageDependencies": [
             ["core-js", "npm:3.6.5"]
           ],
@@ -7657,7 +7657,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["cypress", [
         ["npm:3.8.3", {
-          "packageLocation": "./.yarn/unplugged/cypress-npm-3.8.3-888da081fd/node_modules/cypress/",
+          "packageLocation": "./.yarn/cache/cypress-npm-3.8.3-888da081fd-324096845d.zip/node_modules/cypress/",
           "packageDependencies": [
             ["cypress", "npm:3.8.3"],
             ["@cypress/listr-verbose-renderer", "npm:0.4.1"],
@@ -8368,7 +8368,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["ejs", [
         ["npm:2.7.4", {
-          "packageLocation": "./.yarn/unplugged/ejs-npm-2.7.4-879ed38a4e/node_modules/ejs/",
+          "packageLocation": "./.yarn/cache/ejs-npm-2.7.4-879ed38a4e-f066d9a932.zip/node_modules/ejs/",
           "packageDependencies": [
             ["ejs", "npm:2.7.4"]
           ],
@@ -8750,7 +8750,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/eslint", null],
             ["@types/prettier", null],
             ["eslint", "npm:7.9.0"],
-            ["prettier", "npm:2.1.1"],
+            ["prettier", "npm:2.2.1"],
             ["prettier-linter-helpers", "npm:1.0.0"]
           ],
           "packagePeers": [
@@ -10852,7 +10852,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["husky", [
         ["npm:4.3.0", {
-          "packageLocation": "./.yarn/unplugged/husky-npm-4.3.0-b6c2d49d0e/node_modules/husky/",
+          "packageLocation": "./.yarn/cache/husky-npm-4.3.0-b6c2d49d0e-c212d9732d.zip/node_modules/husky/",
           "packageDependencies": [
             ["husky", "npm:4.3.0"],
             ["chalk", "npm:4.1.0"],
@@ -16069,10 +16069,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:2.1.1", {
-          "packageLocation": "./.yarn/cache/prettier-npm-2.1.1-4096027ae9-420a807cda.zip/node_modules/prettier/",
+        ["npm:2.2.1", {
+          "packageLocation": "./.yarn/cache/prettier-npm-2.2.1-e0670992f8-92c6c9f4b8.zip/node_modules/prettier/",
           "packageDependencies": [
-            ["prettier", "npm:2.1.1"]
+            ["prettier", "npm:2.2.1"]
           ],
           "linkType": "HARD",
         }]
@@ -16166,7 +16166,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ignore", "npm:5.1.8"],
             ["mri", "npm:1.1.6"],
             ["multimatch", "npm:4.0.0"],
-            ["prettier", "npm:2.1.1"]
+            ["prettier", "npm:2.2.1"]
           ],
           "packagePeers": [
             "@types/prettier",
@@ -20490,7 +20490,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-environment-jsdom", "npm:26.3.0"],
             ["jest-serializer-vue", "npm:2.0.2"],
             ["node-sass", "npm:4.14.1"],
-            ["prettier", "npm:2.1.1"],
+            ["prettier", "npm:2.2.1"],
             ["pretty-quick", "virtual:97b24829f84ddbbce9c76b13249624a56bbe04cd5537cc7b804245924c702a87f2d55622bf65b1106100ba05adc1da378a3a8e8f604862cf14efd14717ac4e39#npm:3.0.2"],
             ["register-service-worker", "npm:1.7.1"],
             ["sass-loader", "virtual:97b24829f84ddbbce9c76b13249624a56bbe04cd5537cc7b804245924c702a87f2d55622bf65b1106100ba05adc1da378a3a8e8f604862cf14efd14717ac4e39#npm:10.0.2"],
@@ -21418,7 +21418,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["yorkie", [
         ["npm:2.0.0", {
-          "packageLocation": "./.yarn/unplugged/yorkie-npm-2.0.0-90a2c44491/node_modules/yorkie/",
+          "packageLocation": "./.yarn/cache/yorkie-npm-2.0.0-90a2c44491-b232051577.zip/node_modules/yorkie/",
           "packageDependencies": [
             ["yorkie", "npm:2.0.0"],
             ["execa", "npm:0.8.0"],
