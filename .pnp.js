@@ -69,7 +69,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vue/test-utils", "virtual:97b24829f84ddbbce9c76b13249624a56bbe04cd5537cc7b804245924c702a87f2d55622bf65b1106100ba05adc1da378a3a8e8f604862cf14efd14717ac4e39#npm:2.0.0-beta.4"],
             ["babel-core", "virtual:97b24829f84ddbbce9c76b13249624a56bbe04cd5537cc7b804245924c702a87f2d55622bf65b1106100ba05adc1da378a3a8e8f604862cf14efd14717ac4e39#npm:7.0.0-bridge.0"],
             ["babel-jest", "virtual:3bf5cb85a2e664643c98d2e719d27af43974598ccaa6ea3c355c3ae5c1d5177e21a427bd1a7e70bdce3b4affdbcea39f2ffaa213984380213caeec2a5a6a00da#npm:26.3.0"],
-            ["core-js", "npm:3.6.5"],
+            ["core-js", "npm:3.8.3"],
             ["eslint", "npm:7.9.0"],
             ["eslint-plugin-cypress", "virtual:97b24829f84ddbbce9c76b13249624a56bbe04cd5537cc7b804245924c702a87f2d55622bf65b1106100ba05adc1da378a3a8e8f604862cf14efd14717ac4e39#npm:2.11.1"],
             ["eslint-plugin-prettier", "virtual:97b24829f84ddbbce9c76b13249624a56bbe04cd5537cc7b804245924c702a87f2d55622bf65b1106100ba05adc1da378a3a8e8f604862cf14efd14717ac4e39#npm:3.1.4"],
@@ -7180,16 +7180,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["core-js", [
         ["npm:2.6.11", {
-          "packageLocation": "./.yarn/unplugged/core-js-npm-2.6.11-15178ded27/node_modules/core-js/",
+          "packageLocation": "./.yarn/cache/core-js-npm-2.6.11-15178ded27-39ad00b46d.zip/node_modules/core-js/",
           "packageDependencies": [
             ["core-js", "npm:2.6.11"]
           ],
           "linkType": "HARD",
         }],
         ["npm:3.6.5", {
-          "packageLocation": "./.yarn/unplugged/core-js-npm-3.6.5-5941340066/node_modules/core-js/",
+          "packageLocation": "./.yarn/cache/core-js-npm-3.6.5-5941340066-9283348dd5.zip/node_modules/core-js/",
           "packageDependencies": [
             ["core-js", "npm:3.6.5"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:3.8.3", {
+          "packageLocation": "./.yarn/cache/core-js-npm-3.8.3-f6bf459c9f-3c67d1732d.zip/node_modules/core-js/",
+          "packageDependencies": [
+            ["core-js", "npm:3.8.3"]
           ],
           "linkType": "HARD",
         }]
@@ -7657,7 +7664,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["cypress", [
         ["npm:3.8.3", {
-          "packageLocation": "./.yarn/unplugged/cypress-npm-3.8.3-888da081fd/node_modules/cypress/",
+          "packageLocation": "./.yarn/cache/cypress-npm-3.8.3-888da081fd-324096845d.zip/node_modules/cypress/",
           "packageDependencies": [
             ["cypress", "npm:3.8.3"],
             ["@cypress/listr-verbose-renderer", "npm:0.4.1"],
@@ -8368,7 +8375,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["ejs", [
         ["npm:2.7.4", {
-          "packageLocation": "./.yarn/unplugged/ejs-npm-2.7.4-879ed38a4e/node_modules/ejs/",
+          "packageLocation": "./.yarn/cache/ejs-npm-2.7.4-879ed38a4e-f066d9a932.zip/node_modules/ejs/",
           "packageDependencies": [
             ["ejs", "npm:2.7.4"]
           ],
@@ -10852,7 +10859,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["husky", [
         ["npm:4.3.0", {
-          "packageLocation": "./.yarn/unplugged/husky-npm-4.3.0-b6c2d49d0e/node_modules/husky/",
+          "packageLocation": "./.yarn/cache/husky-npm-4.3.0-b6c2d49d0e-c212d9732d.zip/node_modules/husky/",
           "packageDependencies": [
             ["husky", "npm:4.3.0"],
             ["chalk", "npm:4.1.0"],
@@ -20480,7 +20487,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vue/test-utils", "virtual:97b24829f84ddbbce9c76b13249624a56bbe04cd5537cc7b804245924c702a87f2d55622bf65b1106100ba05adc1da378a3a8e8f604862cf14efd14717ac4e39#npm:2.0.0-beta.4"],
             ["babel-core", "virtual:97b24829f84ddbbce9c76b13249624a56bbe04cd5537cc7b804245924c702a87f2d55622bf65b1106100ba05adc1da378a3a8e8f604862cf14efd14717ac4e39#npm:7.0.0-bridge.0"],
             ["babel-jest", "virtual:3bf5cb85a2e664643c98d2e719d27af43974598ccaa6ea3c355c3ae5c1d5177e21a427bd1a7e70bdce3b4affdbcea39f2ffaa213984380213caeec2a5a6a00da#npm:26.3.0"],
-            ["core-js", "npm:3.6.5"],
+            ["core-js", "npm:3.8.3"],
             ["eslint", "npm:7.9.0"],
             ["eslint-plugin-cypress", "virtual:97b24829f84ddbbce9c76b13249624a56bbe04cd5537cc7b804245924c702a87f2d55622bf65b1106100ba05adc1da378a3a8e8f604862cf14efd14717ac4e39#npm:2.11.1"],
             ["eslint-plugin-prettier", "virtual:97b24829f84ddbbce9c76b13249624a56bbe04cd5537cc7b804245924c702a87f2d55622bf65b1106100ba05adc1da378a3a8e8f604862cf14efd14717ac4e39#npm:3.1.4"],
@@ -21418,7 +21425,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["yorkie", [
         ["npm:2.0.0", {
-          "packageLocation": "./.yarn/unplugged/yorkie-npm-2.0.0-90a2c44491/node_modules/yorkie/",
+          "packageLocation": "./.yarn/cache/yorkie-npm-2.0.0-90a2c44491-b232051577.zip/node_modules/yorkie/",
           "packageDependencies": [
             ["yorkie", "npm:2.0.0"],
             ["execa", "npm:0.8.0"],

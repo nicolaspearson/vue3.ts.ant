@@ -5810,6 +5810,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"core-js@npm:^3.8.3":
+  version: 3.8.3
+  resolution: "core-js@npm:3.8.3"
+  checksum: 3c67d1732d505f6afaf836f18038dae8267e8c0e8e84e1c679bac67589e66d0807c24750c7d8b1118cc386c3d66a1d96f20d9cb0f6a879b19cfc04e9f073fe78
+  languageName: node
+  linkType: hard
+
 "core-util-is@npm:1.0.2, core-util-is@npm:~1.0.0":
   version: 1.0.2
   resolution: "core-util-is@npm:1.0.2"
@@ -17822,7 +17829,7 @@ typescript@^4.0.2:
     "@vue/test-utils": ^2.0.0-beta.4
     babel-core: bridge
     babel-jest: ^26.3.0
-    core-js: ^3.6.5
+    core-js: ^3.8.3
     eslint: ^7.9.0
     eslint-plugin-cypress: ^2.11.1
     eslint-plugin-prettier: ^3.1.4
