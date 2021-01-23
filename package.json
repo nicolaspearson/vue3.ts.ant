@@ -55,7 +55,7 @@
     "eslint": "^7.9.0",
     "eslint-plugin-cypress": "^2.11.1",
     "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-vue": "^7.0.0-beta.3",
+    "eslint-plugin-vue": "^7.5.0",
     "husky": "^4.3.0",
     "jest": "^26.4.2",
     "jest-environment-jsdom": "26.3.0",
