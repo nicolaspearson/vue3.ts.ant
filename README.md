@@ -1,5 +1,7 @@
 # vue3.ts.ant
 
+A Vue.js starter project, written using Typescript and Yarn2.
+
 ## Project setup
 ```
 yarn install
