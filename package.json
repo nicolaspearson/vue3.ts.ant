@@ -75,8 +75,8 @@
   },
   "resolutions": {
     "@vue/cli-plugin-unit-jest/jest": "^26.4.2",
-    "@vue/cli-plugin-unit-jest/ts-jest": "^26.3.0",
-    "vue-jest/ts-jest": "^26.3.0"
+    "@vue/cli-plugin-unit-jest/ts-jest": "^26.5.3",
+    "vue-jest/ts-jest": "^26.5.3"
   },
   "husky": {
     "hooks": {
