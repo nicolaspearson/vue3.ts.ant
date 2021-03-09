@@ -74,7 +74,7 @@
     "vue-jest": "nogic1008/vue-jest#hotfix/transform-next"
   },
   "resolutions": {
-    "@vue/cli-plugin-unit-jest/jest": "^26.4.2",
+    "@vue/cli-plugin-unit-jest/jest": "^26.6.3",
     "@vue/cli-plugin-unit-jest/ts-jest": "^26.3.0",
     "vue-jest/ts-jest": "^26.3.0"
   },
