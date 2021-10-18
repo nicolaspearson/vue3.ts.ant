@@ -69,7 +69,7 @@
     "pretty-quick": "^3.1.0",
     "sass-loader": "^10.0.2",
     "ts-jest": "^26.5.3",
-    "tslib": "^2.1.0",
+    "tslib": "^2.3.1",
     "typescript": "^4.2.3",
     "vue-jest": "nogic1008/vue-jest#hotfix/transform-next"
   },
